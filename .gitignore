@@ -106,3 +106,6 @@ dist
 # IDE
 .idea/
 *.iml
+
+# package-lock
+package-lock.json
