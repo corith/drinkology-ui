@@ -69,7 +69,7 @@ html, body {
     display: flex;
     justify-content: center;
     font-size: x-large;
-    color: aqua;
+    color: #00ffff;
     padding-top: 20px;
 }
 
@@ -111,6 +111,41 @@ label,input, select, textarea {
     position: absolute;
     border: solid blueviolet;
     border-radius: 25px;
+}
+
+#drink-table-main {
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#drink-table-main h1 {
+    font-size: 30px;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+#drink-table {
+    color: aqua;
+    /*border: solid blueviolet;*/
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    /*padding: 25px;*/
+}
+
+#drink-table
+
+tr {
+    background-color: blueviolet;
+}
+td {
+    /*background-color: aqua;*/
+    border: solid aqua;
+    padding: 3px;
 }
 
 #footer {
