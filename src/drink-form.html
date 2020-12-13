@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Add a drink!</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="my-container">
+                <div id="logo">
+                    <h1><a href="index.html"> Drinkology! </a></h1>
+                </div>
+                <ul>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="drinks.html"> View Drinks </a></li>
+                    <li><a href="drink-form.html"> Add a drink </a></li>
+                    <li><a href="login.html"> Login </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="drink-form-main">
+        <div class="form-wrap">
+            <h1> Add a new Drink </h1>
+            <p>Enter a name and select the ingredients!</p>
+            <form>
+                <div class="form-group">
+                    <!-- form name input -->
+                    <label for="drink-name"> Drink Name! </label>
+                    <input type="text" id="drink-name" name="drink-name">
+                </div>
+                <div class="form-group">
+                    <!-- Liquor one select -->
+                    <label for="liquor-one">First Liquor</label>
+                    <select name="liquor-one" id="liquor-one">
+                        <option value="(none)">none</option>
+                        <option value="Tequila">Tequila</option>
+                        <option value="Vodka">Vodka</option>
+                        <option value="Whiskey">Whiskey</option>
+                        <option value="Gin">Gin</option>
+                        <option value="Sweet Vermouth">Sweet Vermouth</option>
+                        <option value="Dry Vermouth">Dry Vermouth</option>
+                        <option value="Negroni">Negroni</option>
+                        <option value="Triple Sec">Triple Sec</option>
+                        <option value="Champagne">Champagne</option>
+                        <option value="Bitters">Bitters</option>
+                        <option value="Rum">Rum</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <!-- Liquor two select -->
+                    <label for="liquor-two">Second Liquor</label>
+                    <select name="liquor-two" id="liquor-two">
+                        <option value="(none)">none</option>
+                        <option value="Tequila">Tequila</option>
+                        <option value="Vodka">Vodka</option>
+                        <option value="Whiskey">Whiskey</option>
+                        <option value="Gin">Gin</option>
+                        <option value="Sweet Vermouth">Sweet Vermouth</option>
+                        <option value="Dry Vermouth">Dry Vermouth</option>
+                        <option value="Negroni">Negroni</option>
+                        <option value="Triple Sec">Triple Sec</option>
+                        <option value="Champagne">Champagne</option>
+                        <option value="Bitters">Bitters</option>
+                        <option value="Rum">Rum</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <!-- Mixer select -->
+                    <label for="mixer">Your Mixer</label>
+                    <select name="mixer" id="mixer">
+                        <option value="(none)">none</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Peach Puree">Peach Puree</option>
+                        <option value="Coke">Coke</option>
+                        <option value="Cranberry Juice">Cranberry Juice</option>
+                        <option value="Pineapple Juice">Pineapple Juice</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <!-- Sweetener select -->
+                    <label for="sweetener">Make It Sweet?</label>
+                    <select name="sweetener" id="sweetener">
+                        <option value="(none)">none</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Sugar Cube">Sugar Cube</option>
+                        <option value="Cranberry Juice">Cranberry Juice</option>
+                        <option value="Coconut Cream">Coconut Cream</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <!-- Garnish select -->
+                    <label for="garnish">Get Fancy?</label>
+                    <select name="garnish" id="garnish">
+                        <option value="(none)">none</option>
+                        <option value="Lime Wheel">Lime Wheel</option>
+                        <option value="Orange Wheel">Orange Wheel</option>
+                        <option value="Pineapple Slice">Pineapple Slice</option>
+                        <option value="Peach Slice">Peach Slice</option>
+                        <option value="Maraschino Chery">Maraschino Chery</option>
+                    </select>
+                </div>
+                <button id="drink-submit" class="btn">Submit Drink</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer id="footer"> Drinkology! &reg; </footer>
+
+    <script src="js/create-a-drink.js"></script>
+
+</body>
+</html>

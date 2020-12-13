@@ -12,6 +12,7 @@ const getDrinks = () => {
         }
     }
     xhr.open("GET" ,"http://18.218.51.130:8080/Drinkology/recipes/" , true);
+    // xhr.open("GET" ,"http://localhost:8080/Drinkology/recipes/" , true);
     xhr.send();
 }
 
