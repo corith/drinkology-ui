@@ -6,7 +6,7 @@
 //     }
 // }
 
-const owner = (xhr) => (xhr.responseText[xhr.responseText.length-1] + xhr.responseText[xhr.responseText.length-2]).trim();
+const owner = (xhr) => (xhr.responseText[xhr.responseText.length-2] + xhr.responseText[xhr.responseText.length-1]).trim();
 
 const onClick = function (event) {
     event.preventDefault();
