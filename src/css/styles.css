@@ -14,13 +14,13 @@ html, body {
 .my-container {
     /*max-width: 75%;*/
     margin: auto;
-    /*overflow: auto;*/
+    overflow: auto;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-
+/*Nav Bar*/
 #navbar {
     background: #652dca;
     color: #fff;
@@ -73,6 +73,7 @@ html, body {
     padding-top: 20px;
 }
 
+/*Create user form*/
 #new-user {
     padding-top: 30px;
 }
@@ -87,7 +88,6 @@ html, body {
 
 #new-user-form {
     display: flex;
-    /*flex-direction: column;*/
     justify-content: center;
     color: aqua;
 }
@@ -103,9 +103,10 @@ label,input, select, textarea {
 }
 
 .border2 {
-    display: grid;
+    /*display: grid;*/
     margin-left: 42%;
     margin-right: 40%;
+    margin-bottom: 75px;
     justify-content: center;
     padding: 30px;
     position: absolute;
@@ -113,6 +114,7 @@ label,input, select, textarea {
     border-radius: 25px;
 }
 
+/*Drink Table*/
 #drink-table-main {
     margin: auto;
     width: 50%;
@@ -137,7 +139,6 @@ label,input, select, textarea {
     /*padding: 25px;*/
 }
 
-#drink-table
 
 tr {
     background-color: blueviolet;
@@ -148,10 +149,65 @@ td {
     padding: 3px;
 }
 
+
+/*Drink Form*/
+#drink-form-main {
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    background: #8a2cbc;
+    padding: 20px;
+    color: aqua;
+}
+
+#drink-form-main .form-wrap {
+    padding: 15px 15px;
+}
+#drink-form-main .form-wrap h1,
+#drink-form-main .form-wrap p {
+    text-align: center;
+}
+#drink-form-main .form-wrap .form-group {
+    margin-top: 15px;
+}
+
+#drink-form-main .form-wrap label {
+    display: block;
+}
+
+#drink-form-main .form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: #555 solid 1px;
+}
+
+#drink-form-main .form-wrap .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: #555 solid 1px;
+    border-radius: 5px;
+}
+
+#drink-form-main .form-wrap button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#drink-form-main .form-wrap button:hover {
+    background: #c12ad2;
+}
+
+
 #footer {
     text-align: center;
     background: blueviolet;
     color: aqua;
+    height: 60px;
     width: 100%;
     position: fixed;
     left: 0;
