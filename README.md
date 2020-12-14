@@ -1,6 +1,8 @@
 # drinkology-ui
 The front-end for Drinkology - made in vanilla js.
 
+http://corith.com
+
 # Currently a user can..
 - create an account
 - add a drink the global drink list
