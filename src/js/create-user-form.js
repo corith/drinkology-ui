@@ -26,12 +26,18 @@ const onClick = function (event) {
             }
         }
         // localhost:8080/Drinkology/
-        xhr.open("POST" , "http://18.218.51.130:8080/Drinkology/users/");
+        // xhr.open("POST" , "http://18.218.51.130:8080/Drinkology/users/");
+        xhr.open("POST" , "http://localhost:8080/Drinkology/users/");
         xhr.send(JSON.stringify(userObj));
     } else {
         alert("please enter all the right fields...");
     }
 }
 
-const submit = document.getElementById("submit");
-submit.addEventListener('click' , onClick);
+// const submit = document.getElementById("submit");
+// submit.addEventListener('click' , onClick);
+document.body.addEventListener('click' , function (e) {
+    if (e.target.id == 'submit' ) {
+        onClick(e);
+    }
+})

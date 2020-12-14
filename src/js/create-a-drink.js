@@ -32,8 +32,8 @@ const onClick = function (event) {
             }
         }
 
-        xhr.open("POST" , "http://18.218.51.130:8080/Drinkology/recipe/");
-        // xhr.open("POST" , "http://localhost:8080/Drinkology/recipe/");
+        // xhr.open("POST" , "http://18.218.51.130:8080/Drinkology/recipe/");
+        xhr.open("POST" , "http://localhost:8080/Drinkology/recipe/");
         xhr.send(JSON.stringify(drinkObj));
 
     } else {
