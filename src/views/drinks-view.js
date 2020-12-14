@@ -17,4 +17,5 @@ export const DrinkTableComponent = () =>
             </tbody>
 
         </table>
+        <button id="update-button" ${document.cookie === "userId=1" ? "onclick=\"window.location.href='update-drink.html'\"" : "style=\"display: none"}> Update  </button>
     </section>`

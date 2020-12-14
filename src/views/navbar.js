@@ -10,7 +10,7 @@ export const NavbarComponent = () =>
                     <li></li>
                     <li id="view-drinks"><a href="drinks.html"> View Drinks </a></li>
                     <li><a href="drink-form.html"> Add a drink </a></li>
-                    <li><a href="login.html"> Login </a></li>
+                    <li><a href=${document.cookie ? "logout.html" : "login.html"}> ${document.cookie ? "Logout" : "Login"}  </a></li>
                 </ul>
             </div>
         </nav>

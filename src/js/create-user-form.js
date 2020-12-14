@@ -26,8 +26,8 @@ const onClick = function (event) {
             }
         }
         // localhost:8080/Drinkology/
-        xhr.open("POST" , "http://18.218.51.130:8080/Drinkology/users/");
-        // xhr.open("POST" , "http://localhost:8080/Drinkology/users/");
+        // xhr.open("POST" , "http://18.218.51.130:8080/Drinkology/users/");
+        xhr.open("POST" , "http://localhost:8080/Drinkology/users/");
         xhr.send(JSON.stringify(userObj));
     } else {
         alert("please enter all the right fields...");
