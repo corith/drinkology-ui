@@ -1,5 +1,4 @@
 # Drinkology-UI
-The front-end for Drinkology - made in vanilla js.
 
 ## Project Description
 This is the frontend application for the Drinkology api. It allows you to maintain drink recipes in an easy and compact manor.
