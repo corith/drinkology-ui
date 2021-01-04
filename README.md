@@ -30,16 +30,19 @@ This is the frontend application for the Drinkology api. It allows you to mainta
 - ```cd drinkology-ui```
 - ```npm install```
 - ```npm run start```
-- Make sure you have the Drinkology api up and running on a local server as well
-- For Drinkology api please refer to https://github.com/2011JavaReact/Drinkology
+- Make sure you have the Drinkology api up and running on a local server as well.
+- Make sure that the requests are being made to the local Drinkology api and not the shutdown EC2.
+- For Drinkology api please refer to https://github.com/2011JavaReact/Drinkology.
 
 ## Usage
-- Once *getting started* has been done, you can access the web application at *localhost:4200*
+- Once *getting started* has been done, you can access the web application at *localhost:4200*.
 - If the api is set up properly then you will be able to do all the things mentioned in the *Features* section.
 - The *View Drinks* tab will bring up all the recipes in the database.
 - The *Add a Drink* tab will allow you to add a drink recipe.
-- The *Login* tab will let you Login
+- The *Login* tab will let you login.
+- Once logged in, the *Logout* tab will let you logout. 
 - If you have an admin account you will see a button on the *View Drinks* page that will let you update a Drink.
 
 ## License
 This project is provided as open source via the MIT License.
+Copyright (c) 2020 Cory Sebastian
